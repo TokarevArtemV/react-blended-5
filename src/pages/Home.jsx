@@ -1,4 +1,4 @@
-import { Container, Heading, Section } from 'components';
+import { Container, ExchangeForm, Heading, Section } from 'components';
 
 const Home = () => {
   const isError = false;
@@ -7,7 +7,7 @@ const Home = () => {
     <Section>
       <Container>
         <Heading info title="What currencies do you want to exchange?🙂" />
-
+        <ExchangeForm />
         {isError && (
           <Heading
             error
